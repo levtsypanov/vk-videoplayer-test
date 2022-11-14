@@ -1,0 +1,38 @@
+{
+  "name": "mini-app",
+  "version": "1.0.0",
+  "description": "React example starter project",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "@vkontakte/icons": "1.141.1",
+    "@vkontakte/videoplayer": "^1.1.4",
+    "@vkontakte/vk-bridge": "latest",
+    "@vkontakte/vk-miniapps-deploy": "0.0.25",
+    "@vkontakte/vkjs": "0.20.0",
+    "@vkontakte/vkui": "4.28.1",
+    "@vkontakte/vk-tunnel": "^0.1.2"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
